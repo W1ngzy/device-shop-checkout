@@ -43,7 +43,7 @@ body {
 .container {
   max-width: 1280px;
   position: relative;
-  margin: 1.8rem auto;
+  margin: 2rem auto;
   width: 100%;
   padding: 0 3rem;
   display: grid;
@@ -200,7 +200,7 @@ body {
 }
 
 .contact-heading {
-  margin-bottom: 1rem;
+  margin-bottom: 0.8rem;
   font-size: 1.2rem;
   color: var(--primary-color);
   font-weight: 600;
@@ -267,7 +267,7 @@ body {
 }
 
 .submit-btn {
-  margin-top: 1rem;
+  margin-top: 0.75rem;
   border: none;
   cursor: pointer;
 }
