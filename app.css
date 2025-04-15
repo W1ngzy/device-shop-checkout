@@ -58,6 +58,7 @@ body {
   padding: 2rem;
   border-bottom-left-radius: 25px;
   border-top-left-radius: 25px;
+  border: 1px solid var(--secondary-color-shade);
   box-shadow: 0px 4px 4px -1px rgba(17, 23, 41, 0.05);
 }
 
@@ -194,15 +195,15 @@ body {
   padding: 2.5rem;
   border-bottom-right-radius: 25px;
   border-top-right-radius: 25px;
+  border: 1px solid var(--secondary-color-shade);
   box-shadow: 0px 4px 4px -1px rgba(17, 23, 41, 0.05);
 }
 
 .contact-heading {
-  margin-top: 0.5rem;
   margin-bottom: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: var(--primary-color);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 #contact-form {
