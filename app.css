@@ -165,8 +165,9 @@ body {
 }
 
 .coupon-btn {
-  padding: 0.5rem 1rem;
+  padding: 0 1rem;
 }
+
 .totals {
   margin-top: 2rem;
   display: flex;
@@ -288,6 +289,30 @@ body {
   text-decoration: none;
   color: var(--primary-color-shade);
   font-weight: 700;
+}
+
+@media (max-width: 512px) {
+  .coupon-section {
+    flex-direction: column;
+  }
+
+  .location-information {
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .submit-btn {
+    margin-top: 1.5rem;
+  }
+
+  .container {
+    width: 95vw;
+    padding: 0;
+  }
+
+  .coupon-btn {
+    padding: 1rem 0;
+  }
 }
 
 @media (max-width: 768px) {
