@@ -235,6 +235,7 @@ body {
 }
 .left {
   display: flex;
+  width: 50%;
   flex-direction: column;
   flex-grow: 1;
 }
@@ -263,6 +264,7 @@ body {
 
 .right {
   display: flex;
+  width: 50%;
   flex-direction: column;
   flex-grow: 1;
 }
@@ -275,9 +277,7 @@ body {
 
 .footer {
   position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 100%;
+  margin: 2rem auto;
 }
 .author-info {
   font-size: 14px;
@@ -289,30 +289,6 @@ body {
   text-decoration: none;
   color: var(--primary-color-shade);
   font-weight: 700;
-}
-
-@media (max-width: 512px) {
-  .coupon-section {
-    flex-direction: column;
-  }
-
-  .location-information {
-    flex-direction: column;
-    gap: 0;
-  }
-
-  .submit-btn {
-    margin-top: 1.5rem;
-  }
-
-  .container {
-    width: 95vw;
-    padding: 0;
-  }
-
-  .coupon-btn {
-    padding: 1rem 0;
-  }
 }
 
 @media (max-width: 768px) {
@@ -348,5 +324,24 @@ body {
     border-bottom-left-radius: 25px;
     border-top-right-radius: 0px;
     padding: 2rem 1rem;
+  }
+}
+
+@media (max-width: 512px) {
+  .submit-btn {
+    margin-top: 1.5rem;
+  }
+
+  .container {
+    width: 95vw;
+    padding: 0;
+  }
+
+  .coupon-btn {
+    padding: 1rem;
+  }
+
+  .item-section {
+    padding: 2rem;
   }
 }
