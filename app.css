@@ -16,7 +16,7 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   color: var(--secondary-color);
-  background: url(./resources/background-image.webp) no-repeat center top/100%;
+  background: url(./resources/background-image.webp) no-repeat center top;
   position: relative;
 }
 .header {
@@ -213,6 +213,7 @@ body {
 .form-label {
   margin-top: 1.5rem;
   color: var(--primary-color);
+  font-size: 1.1rem;
   font-weight: 500;
 }
 
